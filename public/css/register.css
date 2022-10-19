@@ -1,0 +1,32 @@
+.register-form{
+    box-sizing: border-box;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.div_label{
+    display: flex;
+    box-sizing: border-box;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+input{
+  
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}

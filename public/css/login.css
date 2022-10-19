@@ -30,7 +30,7 @@
 .div_label{
     display: flex;
     box-sizing: border-box;
-    width: 200px;
+    width: 300px;
 }
 label{
     font-size: 20px;

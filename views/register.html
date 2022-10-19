@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <link href="css/styles.css" rel="stylesheet">
+        <link href="css/register.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,43 +40,44 @@
         </div>
     </header>
     <body>
+        <main class="register-form">
         <form action = "/" method="GET" >
-            <div>                         
+            <div class = "div_label">                         
                 <label for="nombreApellido">Nombre y Apellido</label>
                 <input type="text" placeholder= "Nombre y Apellido" size="15" name="nombreApellido" id="nombreApellido">
             </div>
-            <div>
+            <div class = "div_label">
                 <label for="username">Nombre de usuario</label>  
                 <input type="text" name="username" id="username" placeholder= "Nombre de usuario" size="15" > 
            </div>    
-           <div>
+           <div class = "div_label">
                 <label for="password">Contraseña</label>  
                 <input type="password" name="password" id="password" placeholder= "Contraseña" size="15" > 
            </div>
-           <div>
+           <div class = "div_label">
                 <label for="password">Repite la contraseña</label>  
                 <input type="password" name="password" id="password" placeholder= "Repite la contraseña" size="15" > 
             </div>         
-           <div>
+           <div class = "div_label">
                 <label for="email">E-mail</label>  
                 <input type="email" name="E-mail" id="email" placeholder="E-mail" size="15"> 
             </div>
-            <div>
+            <div class = "div_label">
                 <h3>Fecha de nacimiento</h3>
                 <input type="date" name="fecha" id="fechaNacimiento" placeholder="mm/dd/yyyy" size="15"> 
             </div>
-            <div>
+            <div class = "div_label">
                 <label for="domicilio">Domicilio</label>  
                 <input type="text" name="domicilio" id="email" placeholder="Domicilio" size="15"> 
             </div>
-            <div>
+            <div class = "div_label">
                 <h3>Perfil de usuario</h3>
                 <input type="radio" name="tipo-de-comprador" value="Comprador"> 
                 <label for="Comprador">Comprador</label>  
                 <input type="radio" name="tipo-de-comprador" value="Vendedor"> 
                 <label for="Vendedor">Vendedor</label>  
             </div>
-            <div>
+            <div class = "div_label">
                 <h3>Intereses</h3>
                 <input type="checkbox" name="Intereses" value="Electro"> 
                 <label for="Electro">Electro</label>
@@ -89,7 +91,7 @@
                 <label for="Vida Sana">Vida Sana</label>
                 
             </div>
-            <div>
+            <div class = "div_label">
                
                 <label for="file">Elige una imagen</label>
                 <input type="file" name="file   " id="profilePic">
@@ -97,6 +99,7 @@
                 <button type="submit">Enviar</button> 
                 <button type="reset">Borrar Todo</button> 
         </form>
+    </main>
         <footer class="final">
             <section > 
                 <article> 
@@ -133,5 +136,8 @@
                 </article>
             </section>
         </footer>
+       
     </body>
+    
+   
 </html>
